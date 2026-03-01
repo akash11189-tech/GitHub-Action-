@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to user
-      - run: echo "Hello Akash"
+        run: echo "Hello Akash"
 
     
