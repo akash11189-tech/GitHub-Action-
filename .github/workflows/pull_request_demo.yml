@@ -1,0 +1,12 @@
+name: pull request demo
+on:
+  pull_request:
+    branches:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: print runs on pull request
+          run: echo "Akash’s workflow is running on a pull request!"
