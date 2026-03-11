@@ -14,7 +14,7 @@ jobs:
 
         environment:
             name: github-pages
-            url: ${{steps.deployment.output.page.url}}
+            url: ${{ steps.deployment.outputs.page_url }}
 
         steps:
             - name: Checkout Code
